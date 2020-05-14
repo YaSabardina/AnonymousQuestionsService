@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB_Sabardina", "WEB_Sabardina\WEB_Sabardina.csproj", "{F6734268-FB3E-43D0-925E-843230DBAAA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB_Sabardina.DAL", "WEB_Sabardina.DAL\WEB_Sabardina.DAL.csproj", "{0FC031BA-4000-40F2-BFA2-C1A9E3A4D5A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6734268-FB3E-43D0-925E-843230DBAAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6734268-FB3E-43D0-925E-843230DBAAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6734268-FB3E-43D0-925E-843230DBAAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6734268-FB3E-43D0-925E-843230DBAAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC031BA-4000-40F2-BFA2-C1A9E3A4D5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC031BA-4000-40F2-BFA2-C1A9E3A4D5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC031BA-4000-40F2-BFA2-C1A9E3A4D5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC031BA-4000-40F2-BFA2-C1A9E3A4D5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A93153C0-E755-4F9C-9A27-1BBBE44D000C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<WEB_Sabardina.Models.AskViewModel>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Вопрос")
+        </th>
+        <th>
+            @Html.DisplayName("Ответ")
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Question)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Answer)
+            </td>
+            @if (item.Answer.IsEmpty())
+            {
+
+                <td>
+                    @Html.ActionLink("Ответить", "CreateAnswer", new { id = item.Id })
+                </td>
+
+            }
+
+            <td>
+                @Html.ActionLink("Удалить", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
